@@ -180,20 +180,16 @@ Cross-validation was performed using Stratified K-Fold with PR-AUC as the optimi
 
 # 📊 Results
 
-## Model Comparison
+## 📊 Model Comparison
 
-> *(Insert performance table here)*
-
-| Model | Precision | Recall | F1 | ROC-AUC | PR-AUC |
-|------|-----------:|--------:|----:|---------:|---------:|
-| Logistic Regression | | | | | |
-| Random Forest | | | | | |
-| Gradient Boosting | | | | | |
-| XGBoost | | | | | |
-| XGBoost + SMOTE | | | | | |
-| Optimized XGBoost | | | | | |
-
----
+| Model | Imbalance Handling | Precision | Recall | F1 | ROC-AUC | PR-AUC |
+|:------|:------------------|----------:|-------:|---:|--------:|--------:|
+| Logistic Regression | None | 0.870 | 0.652 | 0.745 | 0.983 | 0.754 |
+| Random Forest | None | **0.938** | 0.815 | 0.872 | 0.965 | 0.881 |
+| Gradient Boosting | None | **0.938** | 0.826 | **0.879** | 0.974 | 0.873 |
+| XGBoost | Class Weights | 0.916 | 0.826 | 0.869 | **0.983** | 0.867 |
+| XGBoost | SMOTE | 0.796 | **0.891** | 0.841 | 0.978 | **0.889** |
+| XGBoost | SMOTE + Hyperparameter & Threshold Optimization | **0.888** | **0.859** | **0.873** | **0.978** | **0.883** |
 
 ## Confusion Matrix
 
