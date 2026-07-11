@@ -88,16 +88,14 @@ Performed comprehensive EDA to understand:
 
 ### Sample Visualizations
 
-> *(Insert plots here)*
+<p align="center">
+  <img src="images/class_distribution.png" width="48%">
+  <img src="images/logamount_distribution.png" width="48%">
+</p>
 
-```
-images/
-    class_distribution.png
-    logamount_distribution.png
-    correlation_heatmap.png
-```
-
----
+<p align="center">
+  <img src="images/correlation_heatmap.png" alt="Correlation Heatmap of Features" width="650"/>
+</p>
 
 # ⚙️ Feature Engineering
 
@@ -199,43 +197,35 @@ Cross-validation was performed using Stratified K-Fold with PR-AUC as the optimi
 
 ## Confusion Matrix
 
-> *(Insert confusion matrix here)*
+<p align="center">
+  <img src="images/confusion_matrix.png" alt="Confusion Matrix" width="500"/>
+</p>
 
-```
-images/confusion_matrix.png
-```
-
----
+<p align="center">
+<i>Confusion Matrix of the final optimized XGBoost model.</i>
+</p>
 
 ## Precision-Recall Curve
 
-> *(Insert PR Curve here)*
+<p align="center">
+  <img src="images/pr_curve.png" alt="Precision Recall Curve" width="650"/>
+</p>
 
-```
-images/pr_curve.png
-```
-
----
+<p align="center">
+<i>Precision-Recall Curve comparing different models.</i>
+</p>
 
 ## ROC Curve
 
-> *(Insert ROC Curve here)*
-
-```
-images/roc_curve.png
-```
-
----
+<p align="center">
+  <img src="images/roc_curve.png" alt="ROC Curve" width="650"/>
+</p>
 
 ## Threshold Optimization
 
-> *(Insert threshold optimization graph here)*
-
-```
-images/threshold_vs_f1.png
-```
-
----
+<p align="center">
+  <img src="images/threshold_vs_f1.png" alt="Threshold vs F1 Score" width="650"/>
+</p>
 
 # 🔍 Explainable AI (SHAP)
 
@@ -254,13 +244,9 @@ Generated explanations include:
 
 ## SHAP Summary Plot
 
-> *(Insert image here)*
-
-```
-images/shap_summary.png
-```
-
----
+<p align="center">
+  <img src="images/shap_summary.png" alt="SHAP Summary Plot" width="800"/>
+</p>
 
 # 🛠️ Technologies Used
 
