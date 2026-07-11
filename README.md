@@ -32,6 +32,17 @@ This project develops a complete fraud detection pipeline that focuses on maximi
 
 **Dataset:** Credit Card Fraud Detection Dataset (Kaggle)
 
+**Download the dataset from:**
+
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+After downloading, extract the dataset and place the file as:
+
+```
+data/
+└── creditcard.csv
+```
+
 ### Characteristics
 
 - **284,807 transactions**
