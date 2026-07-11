@@ -6,7 +6,6 @@
 ![XGBoost](https://img.shields.io/badge/XGBoost-Latest-green)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-orange)
 ![SHAP](https://img.shields.io/badge/Explainability-SHAP-red)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
 
